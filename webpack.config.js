@@ -7,7 +7,7 @@ module.exports = {
     entry:{ app: ['webpack/hot/dev-server', './app.jsx' ] },
     output:{
         path: './build',
-        filename: pkg.name + '.[name],js',
+        filename: pkg.name + '.[name].js',
         publicPath: '/build/'
     },
     devServer:{
@@ -20,7 +20,7 @@ module.exports = {
             {
                 test: /(\.js|.jsx)$/,
                 loader: 'babel',
-                query: { presents: ['es2015', 'stage-0', 'react']}
+                query: { presets: ['es2015', 'stage-0', 'react']}
             }
         ]
     }

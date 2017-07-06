@@ -1,4 +1,4 @@
-import Hamsa from 'Hamsa';
+import Hamsa from 'hamsa';
 var Task;
 
 module.exports = (function(){
