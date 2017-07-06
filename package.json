@@ -1,0 +1,39 @@
+{
+  "name": "allMVCreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "star": "npm run build & npm run server",
+    "server": "webpack-dev-server --hot",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andvri/allMVCreact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andvri/allMVCreact/issues"
+  },
+  "homepage": "https://github.com/Andvri/allMVCreact#readme",
+  "devDependencies":{
+    "babel-core": "^6.1.4",
+    "babel-loader": "^6.0.1",
+    "babel-plugin-react-transform": "^1.1.1",
+    "babel-preset-es2015": "^6.1.4",
+    "babel-preset-react": "^6.1.4",
+    "babel-preset-stage-0": "^6.1.4",
+    "hamsa": "*",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "spa-router": "*",
+    "todomvc-app-css": "*",    
+    "todomvc-common": "*",
+    "webpack": "^1.9.10",
+    "webpack-dev-server": "*"
+  }
+}
